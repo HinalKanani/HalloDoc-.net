@@ -1,0 +1,123 @@
+
+input {
+    height: 100%;
+}
+
+.nav {
+    background-color: #c7c8c9;
+}
+
+.container-shadow {
+    box-shadow: 8px 21px 16px -21px rgba(0, 0, 0, 0.45);
+}
+
+.container {
+    max-width: 900px;
+}
+/* .button-back {
+    width: 70px;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(76 193 230);
+    border: 2px solid rgb(76 193 230);
+    border-radius: 5px;
+    box-shadow: 8px 21px 16px -21px rgba(0, 0, 0, 0.45) !important;
+} */
+.form-control:focus {
+    box-shadow: none !important;
+    border: 1px solid #01bce9 !important;
+}
+
+    .form-control:focus + label {
+        color: #01bce9 !important;
+    }
+
+.submit-cancel {
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(76 193 230);
+    font-weight: bold;
+}
+
+    .submit-cancel:hover {
+        color: white;
+        background-color: rgb(76 193 230);
+        border: 2px solid rgb(3, 3, 3);
+    }
+
+footer {
+    position: relative;
+    color: white;
+    top: 85px;
+}
+
+.footer-style {
+    color: white;
+    text-decoration: none;
+}
+
+.iti {
+    width: 100% !important;
+}
+
+.iti__country-list {
+    z-index: 20 !important;
+    width: 300px !important;
+    border-color: #0dcaf0 !important;
+    border-radius: 5px !important;
+    margin-top: 10px !important;
+}
+
+.iti__divider {
+    border-color: #0dcaf0 !important;
+}
+
+.phone {
+    width: 100% !important;
+    height: calc(3.5rem + calc(var(--bs-border-width) * 2)) !important;
+}
+
+.phone1 {
+    width: 100% !important;
+    height: calc(3.5rem + calc(var(--bs-border-width) * 2)) !important;
+}
+
+html[data-bs-theme="dark"] .iti__country-list {
+    color: white !important;
+    background-color: rgb(44, 44, 44) !important;
+}
+
+html[data-bs-theme="dark"] nav {
+    background-color: #6c757d !important;
+}
+
+html[data-bs-theme="dark"] .innerbox {
+    background-color: black !important;
+}
+
+html[data-bs-theme="dark"] h4 {
+    color: white;
+}
+
+
+html[data-bs-theme="dark"] body {
+    background-color: rgb(20, 20, 20) !important;
+}
+
+html[data-bs-theme="dark"] .darkcolor {
+    background-color: rgb(20, 20, 20) !important;
+}
+
+html[data-bs-theme="dark"] textarea {
+    background-color: rgb(20, 20, 20) !important;
+}
+
+html[data-bs-theme="dark"] label {
+    color: white;
+}
+
+
+html[data-bs-theme="dark"] .submit-cancel {
+    color: white;
+    background-color: rgb(44, 182, 224) !important;
+}

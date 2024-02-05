@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/Patient Pages/patientSubmitReq.css">
+
+    <script src="https://kit.fontawesome.com/558bd69c1f.js" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <title>Patient Submit Request</title>
+</head>
+
+<body>
+    <div class="position-relative  ">
+
+        <div class="main-container">
+
+            <div class=" shadow m-1 ">
+                <div class="  login-logo text-center ">
+                    <img src="../images/SRS Screen Shorts/logo.png" class="img-fluid" alt="Image Not Available">
+                </div>
+                <div class="m-3 end-0 top-0 position-absolute ">
+                    <button type="button" class="btn btn-cnta btn-outline-dark border-info  "><i
+                            class="bi bi-moon text-info fs-4" id="btnSwitch"></i></button>
+                </div>
+            </div>
+            <div class="container login-container justify-content-between pt-4 pb-5">
+
+                <div class="mb-5 pb-5">
+
+                    <div class="my-3 mx-3 d-flex justify-content-between align-items-center ">
+                        <h2 class=" ms-5  text-center mt-2 mb-4 ">I am a ..</h2>
+                        <button class="border-info p-3 rounded-2 h-100 w-25 ">
+                            <a asp-controller="Home" asp-action="patientSide" class="text-info  "
+                                style="text-decoration: none;"><i class="fa-solid fa-angle-left"></i><b id="back">
+                                    Back</b></a>
+                        </button>
+
+                    </div>
+                    <div class="row container  justify-content-center  ms-0">
+                        <div class="col-12  m-2  w-75 d-flex align-items-center justify-content-center  "
+                            style="background-color: #e6d6fa; border: 1.5px solid #ae86df ; height:50px">
+                            <a  asp-controller="Home" asp-action="patientRequest"  class="text-decoration-none fw-bold " style="color: #9247ee">PATIENT</a>
+                        </div>
+                        <div class="col-12   m-2 w-75 d-flex align-items-center justify-content-center "
+                            style="background-color: #c2e9ee; border: 1.5px solid #64ccda; height:50px">
+                            <a asp-controller ="Home" asp-action="bisnessRequest" class="text-decoration-none fw-bold" style="color: #389daa">FAMILY / FRIEND</a>
+                        </div>
+                        <div class="col-12  m-2 w-75 d-flex align-items-center justify-content-center "
+                            style="background-color: #c5e0cc; border: 1.5px solid #7ad392; height:50px">
+                            <a asp-controller="Home" asp-action="concirgeRequest" class="text-decoration-none fw-bold" style="color: #206e35">CONCIERGE</a>
+                        </div>
+                        <div class="col-12  m-2  w-75 d-flex align-items-center justify-content-center "
+                            style="background-color: #e0c5db; border: 1.5px solid #dd94d0; height:50px">
+                            <a asp-controller="Home" asp-action="familyFridendRequest" class="text-decoration-none fw-bold" style="color: #af2496">BUSINESS PARTNERS</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script src="../js/darkmode.js"></script>
+</body>
+
+</html>
