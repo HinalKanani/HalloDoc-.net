@@ -18,15 +18,8 @@
 
 <body>
     <div class="position-relative ">
-        <div class="login-bg-img position-absolute">
-            <img src="../images/SRS Screen Shorts/11116016_415.jpg" alt=""
-                class="img-fluid object-fit-cover h-100 w-100">
-        </div>
-
-        <div class="position-absolute top-0 end-0 m-4">
-            <button type="button" class="btn btn-outline-dark border-info "><i class="bi bi-moon text-info fs-4"
-                    id="btnSwitch"></i></button>
-        </div>
+        <partial name="_headerPartialView" />
+        
 
         <div class="main-container">
             <div class="container login-container d-flex flex-column justify-content-between ms-auto me-auto pt-4 pb-5">
@@ -36,13 +29,13 @@
                 <div class="mb-5 pb-5">
                     <div class="mb-3 mx-3">
                         <a asp-controller="Home" asp-action="patientSide" class="text-info"
-                            style="text-decoration: none;"><i class="fa-solid fa-angle-left"></i><b> Back</b></a>
+                           style="text-decoration: none;"><i class="fa-solid fa-angle-left"></i><b> Back</b></a>
                     </div>
-                     <h2 class="mb-3 text-center mt-2 mb-4">Login To Your Account</h2>
+                    <h2 class="mb-3 text-center mt-2 mb-4">Login To Your Account</h2>
                     <form class="mb-3">
                         <div class="form-floating mb-4 ">
                             <input type="email" class="form-control bg-transparent border-2 border-info"
-                                id="exampleInputemail" placeholder="Email">
+                                   id="exampleInputemail" placeholder="Email">
                             <label for="exampleInputemail">Email</label>
                             <div class="user-icon position-absolute top-0 end-0 mx-3 my-2">
                                 <i class="bi bi-person-circle fs-4"></i>
@@ -50,7 +43,7 @@
                         </div>
                         <div class="form-floating mb-4 ">
                             <input type="password" class="form-control bg-transparent border-2 border-info"
-                                id="exampleInputPassword1" placeholder="Password">
+                                   id="exampleInputPassword1" placeholder="Password">
                             <label for="exampleInputPassword1">Password</label>
 
 
@@ -60,16 +53,12 @@
                         </div>
                         <div class="mb-4 text-center">
                             <a asp-controller="Home" asp-action="forgotpassword" class="text-info"
-                                style="text-decoration: none;"><strong>Forgot Password?</strong></a>
+                               style="text-decoration: none;"><strong>Forgot Password?</strong></a>
                         </div>
 
                     </form>
                 </div>
-                <div class="mb-1 pt-lg-2 d-flex justify-content-center">
-                    <a href="#" class="terms mx-2" style="text-decoration: none;">Terms of Condition </a>
-                    <span class="terms">|</span>
-                    <a href="#" class="terms mx-2" style="text-decoration: none;"> Privacy Policy</a>
-                </div>
+                <partial name="_footerPartialView" />
             </div>
         </div>
 

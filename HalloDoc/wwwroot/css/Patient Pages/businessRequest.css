@@ -121,3 +121,13 @@ html[data-bs-theme="dark"] .submit-cancel {
     color: white;
     background-color: rgb(44, 182, 224) !important;
 }
+
+
+.terms {
+    color: gray;
+    text-decoration:none;
+}
+
+html[data-bs-theme="dark"] .terms {
+    color: white;
+}

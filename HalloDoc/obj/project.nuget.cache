@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E5eSOUh/VN2J8F9oH1z7Sb0XzbaTsL7XqsNteXWVJKOgVwNzcyxnAXBbuukSerUFLWTZ5umvX2Dy1Ei7m4nSwQ==",
+  "dgSpecHash": "pwt8k19UkGMMd3TYs7q00/lhU4jsnMI1CLIOLcpZsiRocLmn/t3Je2JizQVt43IqPJzQApdvFS2P/X+JnDZJ1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pct199\\source\\repos\\HalloDoc\\HalloDoc\\HalloDoc.csproj",
+  "projectFilePath": "D:\\HalloDoc\\HalloDoc\\HalloDoc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pct199\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
     "C:\\Users\\pct199\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",

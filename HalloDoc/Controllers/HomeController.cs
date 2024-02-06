@@ -64,6 +64,13 @@ namespace HalloDoc.Controllers
         {
             return View();
         }
+
+        [Route("/Home/_headerPartialView")]
+        public IActionResult _headerPartialView()
+        {
+            return PartialView();
+        }
+
         public IActionResult Privacy()
         {
             return View();

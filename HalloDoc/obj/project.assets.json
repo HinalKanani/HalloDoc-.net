@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pct199\\source\\repos\\HalloDoc\\HalloDoc\\HalloDoc.csproj",
+      "projectUniqueName": "D:\\HalloDoc\\HalloDoc\\HalloDoc.csproj",
       "projectName": "HalloDoc",
-      "projectPath": "C:\\Users\\pct199\\source\\repos\\HalloDoc\\HalloDoc\\HalloDoc.csproj",
+      "projectPath": "D:\\HalloDoc\\HalloDoc\\HalloDoc.csproj",
       "packagesPath": "C:\\Users\\pct199\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pct199\\source\\repos\\HalloDoc\\HalloDoc\\obj\\",
+      "outputPath": "D:\\HalloDoc\\HalloDoc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
